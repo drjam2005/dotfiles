@@ -1,0 +1,5 @@
+[alias]
+	profile-main	= "!git config user.name 'xxx' && git config user.email 'xxx'"
+	profile-school	= "!git config user.name 'xxx' && git config user.email 'xxx'"
+	whoami			= "!echo \"$(git config user.name) <$(git config user.email)>\""
+    currname		= "!git config user.name | sed 's/@.*//'"
