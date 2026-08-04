@@ -11,7 +11,8 @@
 
 set $mod Mod4
 
-gaps inner 4
+gaps inner 5
+gaps outer 5
 # gaps left 120
 # gaps right 120
 
@@ -183,11 +184,11 @@ bindsym $mod+Shift+w exec chromium --incognito
 bindsym $mod+Shift+d exec dorion
 bindsym $mod+Shift+s exec flameshot gui
 bindsym $mod+r exec rofi -show drun
-bindsym $mod+period exec --no-startup-id /home/james/.local/bin/rofimoji
+bindsym $mod+period exec rofi -show emoji
 bindsym $mod+e layout toggle tabbed splith
 bindsym $mod+z exec boomer
 
-exec xrandr --output eDP-1 --mode 1368x768
+exec xrandr --output HDMI-0 --mode 1920x1080 --refresh 144
 set $bg ~/.config/i3/images/land.jpg
 # set $bg ~/Pictures/background.jpg
 # set $bg ~/.config/i3/images/mountains.jpg
@@ -195,10 +196,10 @@ exec feh --bg-scale $bg
 # exec --no-startup-id ~/Scripts/cmus_status.sh
 exec_always --no-startup-ud xset -b
 exec_always xset b off
-exec_always "pgrep polybar >/dev/null 2>&1 && killall polybar && polybar --config=~/.config/i3/polybar/config.ini || polybar --config=~/.config/i3/polybar/config.ini"
+exec_always "pgrep polybar >/dev/null 2>&1 && killall polybar && polybar || polybar"
 exec_always ./usr/bin/otd-daemon
 exec_always picom --config ~/.config/i3/picom/picom.conf
 exec_always flatpak run com.github.wwmm.easyeffects -w
 # exec_always fastcompmgr -c -i 0.8 -e 0.7 &
 exec_always "pgrep dunst >/dev/null 2>&1 && pkill dunst && dunst --config ~/.config/i3/dunst/dunstrc|| --no-startup-id dunst --config ~/.config/i3/dunst/dunstrc && dunst --config ~/.config/dunst/dunstrc"
-# exec_always systemctl --user enable opentabletdriver.service --now
+exec_always systemctl --user enable opentabletdriver.service --now

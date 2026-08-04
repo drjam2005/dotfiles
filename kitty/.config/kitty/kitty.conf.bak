@@ -1,3 +1,9 @@
+# BEGIN_KITTY_THEME
+# Dimmed Monokai
+include current-theme.conf
+# include colors-kitty.conf
+# END_KITTY_THEME
+
 font_family IosevkaTerm NF SemiBold
 bold_font auto
 font_size 17.0
@@ -6,15 +12,20 @@ cursor_shape block
 cursor_shape_unfocused block
 cursor_blink_interval 0
 # cursor #ffffff
-
-window_padding_width 6
+# cursor_trail 10
+# cursor_trail_decay 0.02 0.05
+# cursor_trail_start_threshold 0
+ 
+window_padding_width 10 10
 confirm_os_window_close 0
-# background #111111
 background_opacity 1.0
+background_blur 1
 
+shell_integration disabled
+enable_audio_bell disabled
 
+keyboard_protocol disabled
 
-# BEGIN_KITTY_THEME
-# Carbonfox
-include current-theme.conf
-# END_KITTY_THEME
+allow_remote_control yes
+
+map ctrl+shift+enter new_window_with_cwd

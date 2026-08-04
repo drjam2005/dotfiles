@@ -94,8 +94,6 @@ alias l='ls -CF'
 alias cls='clear'
 alias cd..='cd ..'
 alias y='yazi'
-alias ssh-on='eval "$(ssh-agent -s)" && ssh-add -q ~/.ssh/id_main ~/.ssh/id_school'
-alias ssh-off='ssh-add -D'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
