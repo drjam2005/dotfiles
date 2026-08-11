@@ -1,0 +1,93 @@
+{
+  "plugins": {
+    "Alduin": {
+      "rev": "6575a0f167fef521c404681b96caebdb2b9cc4cd",
+      "src": "https://github.com/AlessandroYorba/Alduin"
+    },
+    "Nvim-R": {
+      "rev": "82b570035e5502ac936e9c4cf8b6709469377253",
+      "src": "https://github.com/jalvesaq/Nvim-R"
+    },
+    "ashen.nvim": {
+      "rev": "bfb04bd50b69d863469b2deb9fb361cf0d945ba7",
+      "src": "https://github.com/ficd0/ashen.nvim"
+    },
+    "asyncomplete.vim": {
+      "rev": "17b654a87a834d4e835fb7467e562b4421ad9310",
+      "src": "https://github.com/prabirshrestha/asyncomplete.vim"
+    },
+    "base16-vim": {
+      "rev": "3be3cd82cd31acfcab9a41bad853d9c68d30478d",
+      "src": "https://github.com/chriskempson/base16-vim"
+    },
+    "cmp-vim-r": {
+      "rev": "2275e5c975dfa5ac9d84907211e22ca0b45a2810",
+      "src": "https://github.com/jalvesaq/cmp-vim-r"
+    },
+    "colorSchemeExplorer": {
+      "rev": "5e8e763264af1142f2310894206ccfb2456e99c3",
+      "src": "https://github.com/jlanzarotta/colorSchemeExplorer"
+    },
+    "emmet-vim": {
+      "rev": "92ef2f74f4093edc99db5e9e4cf7e40116a85bd6",
+      "src": "https://github.com/mattn/emmet-vim"
+    },
+    "gruber-darker-vim": {
+      "rev": "5f2cd5a9375873ce66d1b87ef00bac2bdff29356",
+      "src": "https://github.com/drsooch/gruber-darker-vim"
+    },
+    "kanso.nvim": {
+      "rev": "1afbbb449aa0254823dbe1932e3cbb51886ff9fe",
+      "src": "https://github.com/webhooked/kanso.nvim"
+    },
+    "lush.nvim": {
+      "rev": "9c60ec2279d62487d942ce095e49006af28eed6e",
+      "src": "https://github.com/rktjmp/lush.nvim"
+    },
+    "markdown-preview.nvim": {
+      "rev": "a923f5fc5ba36a3b17e289dc35dc17f66d0548ee",
+      "src": "https://github.com/iamcco/markdown-preview.nvim"
+    },
+    "vim-dispatch": {
+      "rev": "a2ff28abdb2d89725192db5b8562977d392a4d3f",
+      "src": "https://github.com/tpope/vim-dispatch"
+    },
+    "vim-fugitive": {
+      "rev": "3b753cf8c6a4dcde6edee8827d464ba9b8c4a6f0",
+      "src": "https://github.com/tpope/vim-fugitive"
+    },
+    "vim-lsp": {
+      "rev": "e10d186452743beb7b43d2b3427020832f930c2b",
+      "src": "https://github.com/prabirshrestha/vim-lsp"
+    },
+    "vim-lsp-settings": {
+      "rev": "b0c9bacfe98ff6bc4c5f6b0fffdc085d252387e0",
+      "src": "https://github.com/mattn/vim-lsp-settings"
+    },
+    "vim-polyglot": {
+      "rev": "f061eddb7cdcc614c8406847b2bfb53099832a4e",
+      "src": "https://github.com/sheerun/vim-polyglot"
+    },
+    "vim-sensible": {
+      "rev": "0ce2d843d6f588bb0c8c7eec6449171615dc56d9",
+      "src": "https://github.com/tpope/vim-sensible"
+    },
+    "vim-setmake.vim": {
+      "rev": "6a980e7634c26dc2c22f7778a551571b3a73c548",
+      "src": "https://github.com/drjam2005/vim-setmake.vim"
+    },
+    "vim-zenmode": {
+      "rev": "13f3c91ccb77853e3569fed5025b7a715225156c",
+      "src": "https://codeberg.org/turysaz/vim-zenmode.git"
+    },
+    "vimtex": {
+      "rev": "9f6a5bb0a9c9f1542fe88dc07511ce8401242e2a",
+      "src": "https://github.com/lervag/vimtex",
+      "version": "'v2.15'"
+    },
+    "zenbones.nvim": {
+      "rev": "8304d8df9b823ff11e103afa62f38c39f534abe6",
+      "src": "https://github.com/zenbones-theme/zenbones.nvim"
+    }
+  }
+}

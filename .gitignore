@@ -1,0 +1,21 @@
+# Editor and package-manager backups
+*~
+*.bak
+*.swp
+*.swo
+
+# Runtime state and logs
+*.log
+*.lock
+.touchegg:*.lock
+
+# Neovim/Vim state
+.nvimlog
+nvim.log
+
+# Written by xdg-user-dirs-update; keep this host-specific state local.
+user-dirs.dirs
+user-dirs.locale
+
+# Local machine overrides (keep an example file if one is needed)
+*.local

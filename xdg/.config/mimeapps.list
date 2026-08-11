@@ -1,0 +1,13 @@
+[Default Applications]
+text/html=chromium-browser.desktop
+x-scheme-handler/http=chromium-browser.desktop
+x-scheme-handler/https=chromium-browser.desktop
+x-scheme-handler/about=chromium-browser.desktop
+x-scheme-handler/unknown=chromium-browser.desktop
+text/plain=vim.desktop
+x-scheme-handler/discord-831593107883032657=discord-831593107883032657.desktop
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop
+
+[Added Associations]
+text/plain=vim.desktop;
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop;

@@ -17,7 +17,8 @@ Plug 'mattn/vim-lsp-settings'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'drsooch/gruber-darker-vim'
 Plug 'chriskempson/base16-vim'
-Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'npm install'}
+" Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'npm install'}
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
 Plug 'rktjmp/lush.nvim'
 Plug 'zenbones-theme/zenbones.nvim'
 Plug 'webhooked/kanso.nvim'
@@ -31,6 +32,7 @@ Plug 'ficd0/ashen.nvim'
 Plug 'jlanzarotta/colorSchemeExplorer'
 " Plug 'drjam2005/kitty-sync.vim'
 Plug 'drjam2005/vim-setmake.vim'
+Plug 'kaarmu/typst.vim'
 
 call plug#end()
 
